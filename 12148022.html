@@ -1,0 +1,13 @@
+<html>
+    <h1> Hey {{firstName}}, check out these recommended vehicles for you!</h1>
+    <hr>
+    {{#each recommended}}
+    <br><strong>{{year}} {{name}}</strong><br>
+    {{miles}} miles<br>
+    {{price}}<br>
+    <a href="{{url}}"><button>Check it out</button></a><br>
+   <img src="{{imageUrl}}" width="500" /><p></p>
+    {{/each}}
+    <hr>
+    <a href="{{unsubscribeUrl}}">Unsubscribe</a>
+</html>
