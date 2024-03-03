@@ -20,5 +20,5 @@ jobs:
       - name: execute py script # run update-templates.py
         env:
           ITERABLE_API_KEY: ${{ secrets.ITERABLE_API_KEY }}
-          DIRCTORY: ${{ GITHUB_WORKSPACE }}
+          DIRCTORY: ${{ github.workspace }}
         run: python3 update-templates.py
