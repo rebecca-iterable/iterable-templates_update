@@ -20,4 +20,4 @@ jobs:
         env:
           ITERABLE_API_KEY: ${{ secrets.ITERABLE_API_KEY }}
           DIRCTORY: $GITHUB_WORKSPACE
-        run: python3 ./update-templates.py
+        run: python3 update-templates.py
