@@ -1,5 +1,5 @@
 name: Update Iterable Template
-on: [push] #update to 'pr'
+on: [pr] 
 jobs:
   build:
     runs-on: ubuntu-latest
