@@ -22,10 +22,11 @@ if __name__ == "__main__":
 
     try:
         ITERABLE_API_KEY = os.environ["ITERABLE_API_KEY"]
+        DIRCTORY = os.environ["DIRCTORY"]
     except KeyError:
         raise Exception("Error: Iterable API Key not found")
 
-    directory = '../..'
+    directory = DIRCTORY
     url = 'https://api.iterable.com/api/templates/email/update'
     headers = {'Api-Key': ITERABLE_API_KEY}
 

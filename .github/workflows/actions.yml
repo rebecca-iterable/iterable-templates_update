@@ -7,6 +7,7 @@ jobs:
       - name: execute py script # run main.py
         env:
           ITERABLE_API_KEY: ${{ secrets.ITERABLE_API_KEY }}
+          DIRCTORY: $GITHUB_WORKSPACE
         run: python main.py
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
