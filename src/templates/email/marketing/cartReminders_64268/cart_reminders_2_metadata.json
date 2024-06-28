@@ -1,0 +1,30 @@
+{
+    "templateId": 13587011,
+    "metadata": {
+        "templateId": 13587011,
+        "createdAt": 1719530945727,
+        "updatedAt": 1719532210653,
+        "name": "cart_reminders_2",
+        "creatorUserId": "christina.m.schell@gmail.com",
+        "messageTypeId": 64268,
+        "clientTemplateId": "cart_reminders_2"
+    },
+    "name": "cart_reminders_2",
+    "fromName": "Schelly Apps",
+    "fromEmail": "noreply@schellyapps.com",
+    "replyToEmail": "",
+    "subject": "cart reminders 2",
+    "preheaderText": "",
+    "ccEmails": [],
+    "bccEmails": [],
+    "plainText": "",
+    "googleAnalyticsCampaignName": "",
+    "linkParams": [],
+    "dataFeedIds": [],
+    "cacheDataFeed": true,
+    "mergeDataFeedContext": false,
+    "clientTemplateId": "cart_reminders_2",
+    "messageTypeId": 64268,
+    "creatorUserId": "christina.m.schell@gmail.com",
+    "isDefaultLocale": true
+}

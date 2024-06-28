@@ -1,0 +1,30 @@
+{
+    "templateId": 13587012,
+    "metadata": {
+        "templateId": 13587012,
+        "createdAt": 1719530955208,
+        "updatedAt": 1719532211822,
+        "name": "daily_promotional_2",
+        "creatorUserId": "christina.m.schell@gmail.com",
+        "messageTypeId": 64265,
+        "clientTemplateId": "daily_promotional_2"
+    },
+    "name": "daily_promotional_2",
+    "fromName": "Schelly Apps",
+    "fromEmail": "noreply@schellyapps.com",
+    "replyToEmail": "",
+    "subject": "dailiy promotional 2",
+    "preheaderText": "",
+    "ccEmails": [],
+    "bccEmails": [],
+    "plainText": "",
+    "googleAnalyticsCampaignName": "",
+    "linkParams": [],
+    "dataFeedIds": [],
+    "cacheDataFeed": true,
+    "mergeDataFeedContext": false,
+    "clientTemplateId": "daily_promotional_2",
+    "messageTypeId": 64265,
+    "creatorUserId": "christina.m.schell@gmail.com",
+    "isDefaultLocale": true
+}

@@ -1,0 +1,30 @@
+{
+    "templateId": 13587014,
+    "metadata": {
+        "templateId": 13587014,
+        "createdAt": 1719530974057,
+        "updatedAt": 1719532214149,
+        "name": "weekly_newsletter_2",
+        "creatorUserId": "christina.m.schell@gmail.com",
+        "messageTypeId": 64267,
+        "clientTemplateId": "weekly_newsletter_2"
+    },
+    "name": "weekly_newsletter_2",
+    "fromName": "Schelly Apps",
+    "fromEmail": "noreply@schellyapps.com",
+    "replyToEmail": "",
+    "subject": "weekly newsletter 2",
+    "preheaderText": "",
+    "ccEmails": [],
+    "bccEmails": [],
+    "plainText": "",
+    "googleAnalyticsCampaignName": "",
+    "linkParams": [],
+    "dataFeedIds": [],
+    "cacheDataFeed": true,
+    "mergeDataFeedContext": false,
+    "clientTemplateId": "weekly_newsletter_2",
+    "messageTypeId": 64267,
+    "creatorUserId": "christina.m.schell@gmail.com",
+    "isDefaultLocale": true
+}

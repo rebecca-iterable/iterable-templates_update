@@ -1,0 +1,30 @@
+{
+    "templateId": 13587015,
+    "metadata": {
+        "templateId": 13587015,
+        "createdAt": 1719530985232,
+        "updatedAt": 1719532216151,
+        "name": "weekly_promotional_2",
+        "creatorUserId": "christina.m.schell@gmail.com",
+        "messageTypeId": 64266,
+        "clientTemplateId": "weekly_promotional_2"
+    },
+    "name": "weekly_promotional_2",
+    "fromName": "Schelly Apps",
+    "fromEmail": "noreply@schellyapps.com",
+    "replyToEmail": "",
+    "subject": "weekly promotional 2",
+    "preheaderText": "",
+    "ccEmails": [],
+    "bccEmails": [],
+    "plainText": "",
+    "googleAnalyticsCampaignName": "",
+    "linkParams": [],
+    "dataFeedIds": [],
+    "cacheDataFeed": true,
+    "mergeDataFeedContext": false,
+    "clientTemplateId": "weekly_promotional_2",
+    "messageTypeId": 64266,
+    "creatorUserId": "christina.m.schell@gmail.com",
+    "isDefaultLocale": true
+}

@@ -1,0 +1,30 @@
+{
+    "templateId": 13587013,
+    "metadata": {
+        "templateId": 13587013,
+        "createdAt": 1719530964293,
+        "updatedAt": 1719532213037,
+        "name": "product_suggestions_2",
+        "creatorUserId": "christina.m.schell@gmail.com",
+        "messageTypeId": 64269,
+        "clientTemplateId": "product_suggestions_2"
+    },
+    "name": "product_suggestions_2",
+    "fromName": "Schelly Apps",
+    "fromEmail": "noreply@schellyapps.com",
+    "replyToEmail": "",
+    "subject": "product suggestions 2",
+    "preheaderText": "",
+    "ccEmails": [],
+    "bccEmails": [],
+    "plainText": "",
+    "googleAnalyticsCampaignName": "",
+    "linkParams": [],
+    "dataFeedIds": [],
+    "cacheDataFeed": true,
+    "mergeDataFeedContext": false,
+    "clientTemplateId": "product_suggestions_2",
+    "messageTypeId": 64269,
+    "creatorUserId": "christina.m.schell@gmail.com",
+    "isDefaultLocale": true
+}
