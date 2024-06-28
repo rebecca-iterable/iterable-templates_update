@@ -27,17 +27,6 @@ FOLDER_LOOKUP = {
     # TODO: include transactional paths and message types
 }
 
-# Function to process and upsert a template
-def process_and_upsert_template(folder_name, campaign_name):
-    try:
-        print(f"Processing {campaign_name} in {folder_name}")
-        metadata_path = os.path.join(folder_name, f"{campaign_name}_metadata.json")
-        html_path = os.path.join(folder_name, f"{campaign_name}.html")
-
-        if not os.path.exists(metadata_path) or not os.path.exists(html_path):
-            print(f"Missing metadata or HTML file for {campaign_name}")
-            return
-
 # Your Iterable API key and endpoint
 API_KEY = os.getenv('ITERABLE_API_KEY')
 BASE_URL = "https://api.iterable.com"
