@@ -3,8 +3,40 @@ import json
 import requests
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+try:
+    ITERABLE_API_KEY = os.environ["ITERABLE_API_KEY"]
+    DIRCTORY = os.environ["DIRCTORY"]
+except KeyError:
+    raise Exception("Error: Iterable API Key not found")
+
+directory = DIRCTORY
+
+# Your Iterable API key and endpoint
+API_KEY = os.getenv('ITERABLE_API_KEY')
+BASE_URL = "https://api.iterable.com"
+UPSERT_TEMPLATE_URL = f"{BASE_URL}/api/templates/email/upsert"
+HEADERS = {'Api-Key': API_KEY, 'Content-Type': 'application/json'}
+
+# Lookup table for message type IDs and their corresponding folder names
+FOLDER_LOOKUP = {
+    "64268": "src/templates/email/marketing/cartReminders_64268",
+    "64265": "src/templates/email/marketing/dailyPrommotional_64265",
+    "64269": "src/templates/email/marketing/productSuggestions_64269",
+    "64267": "src/templates/email/marketing/weeklyNewsletter_64267",
+    "64266": "src/templates/email/marketing/weeklyPromotional_64266"
+    # TODO: include transactional paths and message types
+}
+
+# Function to process and upsert a template
+def process_and_upsert_template(folder_name, campaign_name):
+    try:
+        print(f"Processing {campaign_name} in {folder_name}")
+        metadata_path = os.path.join(folder_name, f"{campaign_name}_metadata.json")
+        html_path = os.path.join(folder_name, f"{campaign_name}.html")
+
+        if not os.path.exists(metadata_path) or not os.path.exists(html_path):
+            print(f"Missing metadata or HTML file for {campaign_name}")
+            return
 
 # Your Iterable API key and endpoint
 API_KEY = os.getenv('ITERABLE_API_KEY')
