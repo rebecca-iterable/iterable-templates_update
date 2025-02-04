@@ -1,4 +1,3 @@
-# update
 name: Update Iterable Template
 on:
   pull_request:
@@ -27,6 +26,6 @@ jobs:
         env:
           ITERABLE_API_KEY: ${{ secrets.ITERABLE_API_KEY }}
           GITHUB_REPO: ${{ github.repository }}
-          GITHUB_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 update-templates.py
