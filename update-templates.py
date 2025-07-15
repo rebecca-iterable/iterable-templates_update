@@ -21,11 +21,8 @@ GITHUB_HEADERS = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Accept": "applicat
 
 # Lookup table for message type IDs and their corresponding folder names
 FOLDER_LOOKUP = {
-    "64268": "src/templates/email/marketing/cartReminders_64268",
-    "64265": "src/templates/email/marketing/dailyPrommotional_64265",
-    "64269": "src/templates/email/marketing/productSuggestions_64269",
-    "64267": "src/templates/email/marketing/weeklyNewsletter_64267",
-    "64266": "src/templates/email/marketing/weeklyPromotional_64266"
+    "144997": "src/templates/email/marketing/newsletter_144997",
+    "164002": "src/templates/email/marketing/promotional_164002"
 }
 
 def get_changed_files():
