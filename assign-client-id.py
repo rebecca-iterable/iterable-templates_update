@@ -18,7 +18,7 @@ TEMPLATE_TYPES = ['Base', 'Blast', 'Triggered', 'Workflow']
 # Function to fetch templates of a specific type
 def fetch_templates(template_type):
     # TODO: remove date range from url when done testing
-    response = requests.get(f"{GET_TEMPLATES_URL}?templateType={template_type}&messageMedium=Email&startDateTime=2024-06-27T07%3A00%3A00.000Z&endDateTime=2024-06-28T06%3A59%3A00.000Z", headers=HEADERS)
+    response = requests.get(f"{GET_TEMPLATES_URL}?templateType={template_type}&messageMedium=Email&startDateTime=2025-06-27T07%3A00%3A00.000Z&endDateTime=2025-12-01T06%3A59%3A00.000Z", headers=HEADERS)
     if response.status_code == 200:
         templates = response.json().get('templates', [])
         return templates
