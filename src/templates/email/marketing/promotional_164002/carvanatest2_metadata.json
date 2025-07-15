@@ -1,25 +1,30 @@
 {
-  "templateId": 18584028,
+  "templateId": 18584409,
   "metadata": {
-    "templateId": 18584028,
-    "createdAt": 1752620109987,
-    "updatedAt": 1752620590608,
+    "templateId": 18584409,
+    "createdAt": 1752622815707,
+    "updatedAt": 1752622817074,
     "name": "carvanatest2",
     "creatorUserId": "training@iterable.com",
-    "messageTypeId": 164002
+    "messageTypeId": 164002,
+    "clientTemplateId": ""
   },
   "name": "carvanatest2",
   "fromName": "Rebecca",
   "fromEmail": "rebecca+training@iterable.com",
+  "replyToEmail": "",
   "subject": "this is a test...",
   "preheaderText": "",
   "ccEmails": [],
   "bccEmails": [],
-  "html": "<html>\n    Hello there<br />\n    testing....<br />\n    <a href=\"{{unsubscribeUrl}}\" target=\"_blank\">Click here to Unsubscribe</a>\n</html>",
+  "html": "<html>\n    <head>\n        <style>\n            .blueButton {\n                background-color: yellowgreen;\n                color: white;\n            }\n        </style>\n    </head>\n    <body>\n       Carvana Test<br><br>\n        <button class=\"blueButton\">Click Me</button>\n        <hr>\n        <a href=\"{{unsubscribeUrl}}\">Unsubscribe</a>\n    </body>\n</html>\n",
   "plainText": "",
+  "googleAnalyticsCampaignName": "",
+  "linkParams": [],
   "dataFeedIds": [],
   "cacheDataFeed": true,
   "mergeDataFeedContext": false,
+  "clientTemplateId": "",
   "messageTypeId": 164002,
   "creatorUserId": "training@iterable.com"
 }
