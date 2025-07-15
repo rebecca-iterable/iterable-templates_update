@@ -2,6 +2,10 @@ import os
 import json
 import requests
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # Get required environment variables
 try:
     ITERABLE_API_KEY = os.environ["ITERABLE_API_KEY"]
