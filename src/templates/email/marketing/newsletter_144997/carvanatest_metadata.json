@@ -4,14 +4,14 @@
         "templateId": 18582626,
         "createdAt": 1719530945727,
         "updatedAt": 1719532210653,
-        "name": "cart_reminders_2",
+        "name": "Carvana Test",
         "creatorUserId": "christina.m.schell@gmail.com",
         "messageTypeId": 144997,
         "clientTemplateId": "cart_reminders_2"
     },
-    "name": "cart_reminders_2",
-    "fromName": "Schelly Apps",
-    "fromEmail": "noreply@schellyapps.com",
+    "name": "Carvana Test",
+    "fromName": "Rebecca Chow",
+    "fromEmail": "rebecca+training@iterable.com",
     "replyToEmail": "",
     "subject": "cart reminders 2",
     "preheaderText": "",
@@ -25,6 +25,6 @@
     "mergeDataFeedContext": false,
     "clientTemplateId": "cart_reminders_2",
     "messageTypeId": 144997,
-    "creatorUserId": "christina.m.schell@gmail.com",
+    "creatorUserId": "rebecca@iterable.com",
     "isDefaultLocale": true
 }
