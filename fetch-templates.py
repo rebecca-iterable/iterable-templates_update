@@ -11,7 +11,7 @@ load_dotenv()
 API_KEY = os.getenv('ITERABLE_API_KEY')
 BASE_URL = "https://api.iterable.com"
 # TODO: remove date range when done testing
-GET_ALL_TEMPLATES = f"{BASE_URL}/api/templates?templateType=Base&messageMedium=Email&startDateTime=2024-06-27T07%3A00%3A00.000Z&endDateTime=2024-06-28T06%3A59%3A00.000Z"
+GET_ALL_TEMPLATES = f"{BASE_URL}/api/templates?templateType=Base&messageMedium=Email&startDateTime=2025-06-27T07%3A00%3A00.000Z&endDateTime=2025-12-01T06%3A59%3A00.000Z"
 GET_SINGLE_TEMPLATE = f"{BASE_URL}/api/templates/email/get"
 HEADERS = {'Api-Key': API_KEY, 'Content-Type': 'application/json'}
 
