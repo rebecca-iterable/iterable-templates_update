@@ -1,0 +1,25 @@
+{
+  "templateId": 18584028,
+  "metadata": {
+    "templateId": 18584028,
+    "createdAt": 1752620109987,
+    "updatedAt": 1752620590608,
+    "name": "carvanatest2",
+    "creatorUserId": "training@iterable.com",
+    "messageTypeId": 164002
+  },
+  "name": "carvanatest2",
+  "fromName": "Rebecca",
+  "fromEmail": "rebecca+training@iterable.com",
+  "subject": "this is a test...",
+  "preheaderText": "",
+  "ccEmails": [],
+  "bccEmails": [],
+  "html": "<html>\n    Hello there<br />\n    testing....<br />\n    <a href=\"{{unsubscribeUrl}}\" target=\"_blank\">Click here to Unsubscribe</a>\n</html>",
+  "plainText": "",
+  "dataFeedIds": [],
+  "cacheDataFeed": true,
+  "mergeDataFeedContext": false,
+  "messageTypeId": 164002,
+  "creatorUserId": "training@iterable.com"
+}
