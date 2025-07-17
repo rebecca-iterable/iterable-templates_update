@@ -3,7 +3,7 @@
     "metadata": {
         "templateId": 18584409,
         "createdAt": 1752622815707,
-        "updatedAt": 1752623399285,
+        "updatedAt": 1752776764107,
         "name": "carvanatest2",
         "creatorUserId": "training@iterable.com",
         "messageTypeId": 164002,
@@ -23,7 +23,7 @@
     "dataFeedIds": [],
     "cacheDataFeed": true,
     "mergeDataFeedContext": false,
-    "clientTemplateId": "",
+    "clientTemplateId": "carvanatest2",
     "messageTypeId": 164002,
     "creatorUserId": "training@iterable.com"
 }
