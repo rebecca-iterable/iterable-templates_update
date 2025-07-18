@@ -38,30 +38,6 @@ def update_template_client_id(template_id, client_template_id):
     else:
         print(f"Failed to update template {template_id}: {response.status_code}")
 
-def update_local_metadata_file(template_name):
-    """
-    Finds the local JSON metadata file by convention and updates clientTemplateId
-    """
-    metadata_path = os.path.join(LOCAL_METADATA_FOLDER, f"{template_name}_metadata.json")
-    if os.path.exists(metadata_path):
-        with open(metadata_path, 'r') as f:
-            metadata = json.load(f)
-
-        metadata['clientTemplateId'] = template_name
-
-        with open(metadata_path, 'w') as f:
-            json.dump(metadata, f, indent=2)
-
-        print(f"✅ Updated local metadata file: {metadata_path}")
-
-        # Optionally add, commit, push
-        subprocess.run(["git", "add", metadata_path])
-        subprocess.run(["git", "commit", "-m", f"Update clientTemplateId to {template_name}"])
-        subprocess.run(["git", "push", "origin", "new_marketing_branch"])
-        print("🚀 Changes committed & pushed to GitHub!")
-    else:
-        print(f"⚠️ Metadata file not found: {metadata_path}")
-
 # Main function to fetch and update templates for each type
 def update_client_ids_for_all_templates():
     for template_type in TEMPLATE_TYPES:
