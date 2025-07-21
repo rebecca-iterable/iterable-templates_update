@@ -1,0 +1,24 @@
+{
+    "templateId": 18583912,
+    "metadata": {
+        "templateId": 18583912,
+        "createdAt": 1752619260351,
+        "updatedAt": 1752619260351,
+        "name": "Template created on Tue, Jul 15 2025, 3:41 PM",
+        "creatorUserId": "training@iterable.com",
+        "messageTypeId": 105099
+    },
+    "name": "Template created on Tue, Jul 15 2025, 3:41 PM",
+    "fromName": "Rebecca",
+    "fromEmail": "rebecca+training@iterable.com",
+    "subject": "",
+    "preheaderText": "",
+    "ccEmails": [],
+    "bccEmails": [],
+    "plainText": "",
+    "dataFeedIds": [],
+    "cacheDataFeed": true,
+    "mergeDataFeedContext": false,
+    "messageTypeId": 105099,
+    "creatorUserId": "training@iterable.com"
+}

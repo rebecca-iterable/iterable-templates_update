@@ -1,19 +1,19 @@
 {
-    "templateId": 18584409,
+    "templateId": 18582626,
     "metadata": {
-        "templateId": 18584409,
-        "createdAt": 1752622815707,
-        "updatedAt": 1753122317918,
-        "name": "carvanatest2",
+        "templateId": 18582626,
+        "createdAt": 1752612914421,
+        "updatedAt": 1753123633815,
+        "name": "Carvana Test",
         "creatorUserId": "training@iterable.com",
-        "messageTypeId": 164002,
-        "clientTemplateId": "carvanatest2"
+        "messageTypeId": 144997,
+        "clientTemplateId": "Carvana Test"
     },
-    "name": "carvanatest2",
+    "name": "Carvana Test",
     "fromName": "Rebecca",
     "fromEmail": "rebecca+training@iterable.com",
     "replyToEmail": "",
-    "subject": "this is a test...",
+    "subject": "this is a test",
     "preheaderText": "",
     "ccEmails": [],
     "bccEmails": [],
@@ -23,7 +23,7 @@
     "dataFeedIds": [],
     "cacheDataFeed": true,
     "mergeDataFeedContext": false,
-    "clientTemplateId": "carvanatest2",
-    "messageTypeId": 164002,
+    "clientTemplateId": "Carvana Test",
+    "messageTypeId": 144997,
     "creatorUserId": "training@iterable.com"
 }

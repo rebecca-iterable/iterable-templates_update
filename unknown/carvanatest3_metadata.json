@@ -1,0 +1,26 @@
+{
+    "templateId": 18664258,
+    "metadata": {
+        "templateId": 18664258,
+        "createdAt": 1753121548874,
+        "updatedAt": 1753121599185,
+        "name": "carvanatest3",
+        "creatorUserId": "training@iterable.com",
+        "messageTypeId": 105099,
+        "clientTemplateId": "carvanatest3"
+    },
+    "name": "carvanatest3",
+    "fromName": "Rebecca",
+    "fromEmail": "rebecca+training@iterable.com",
+    "subject": "testing again",
+    "preheaderText": "",
+    "ccEmails": [],
+    "bccEmails": [],
+    "plainText": "",
+    "dataFeedIds": [],
+    "cacheDataFeed": true,
+    "mergeDataFeedContext": false,
+    "clientTemplateId": "carvanatest3",
+    "messageTypeId": 105099,
+    "creatorUserId": "training@iterable.com"
+}
